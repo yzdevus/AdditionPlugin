@@ -1,0 +1,18 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.example.additionplugin"
+        version="1.0.0">
+    <name>AdditionPlugin</name>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="AdditionPlugin">
+                <param name="ios-package" value="AdditionPlugin" />
+            </feature>
+        </config-file>
+        <framework src="src/ios/AdditionSDK.framework" custom="true" embed="true"/>
+        <source-file src="src/ios/AdditionPlugin.swift" />
+        <header-file src="src/ios/Bridging-Header.h" />
+    </platform>
+    <js-module src="www/AdditionPlugin.js" name="AdditionPlugin">
+        <clobbers target="AdditionPlugin" />
+    </js-module>
+</plugin>

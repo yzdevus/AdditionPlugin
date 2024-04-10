@@ -1,0 +1,11 @@
+framework module AdditionSDK {
+  umbrella header "AdditionSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module AdditionSDK.Swift {
+  header "AdditionSDK-Swift.h"
+  requires objc
+}

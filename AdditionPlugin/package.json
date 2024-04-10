@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-addasync",
+  "version": "1.0.0",
+  "description": "Cordova demo plugin for access framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yzdevus/AdditionPlugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "addasync"
+  ],
+  "author": "Tester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yzdevus/AdditionPlugin/issues"
+  },
+  "homepage": "https://github.com/yzdevus/AdditionPlugin#readme"
+}
